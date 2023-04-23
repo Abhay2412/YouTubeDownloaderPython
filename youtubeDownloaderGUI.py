@@ -45,7 +45,7 @@ youtubeLink = customtkinter.CTkEntry(application, width=400, height=50, textvari
 youtubeLink.pack()
 
 # Progress Percentage 
-progressPercentage = customtkinter.CTkLabel(application, text="0%", text_color="pink")
+progressPercentage = customtkinter.CTkLabel(application, text="0%")
 progressPercentage.pack()
 
 # Progress Bar
