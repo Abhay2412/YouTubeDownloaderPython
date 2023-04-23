@@ -49,7 +49,7 @@ progressPercentage = customtkinter.CTkLabel(application, text="0%", text_color="
 progressPercentage.pack()
 
 # Progress Bar
-progressBar = customtkinter.CTkLabel(application, )
+progressBar = customtkinter.CTkProgressBar(application, )
 progressBar.set(0)
 progressBar.pack(padx=15, pady=15)
 
